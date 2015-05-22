@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C78C3EEB1B0EB9C3000CA34B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C3EEA1B0EB9C3000CA34B /* AppDelegate.swift */; };
+		C78C3EED1B0EB9C3000CA34B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C3EEC1B0EB9C3000CA34B /* ViewController.swift */; };
+		C78C3EF01B0EB9C3000CA34B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78C3EEE1B0EB9C3000CA34B /* Main.storyboard */; };
+		C78C3EF21B0EB9C3000CA34B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78C3EF11B0EB9C3000CA34B /* Images.xcassets */; };
+		C78C3EF51B0EB9C3000CA34B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78C3EF31B0EB9C3000CA34B /* LaunchScreen.xib */; };
+		C78C3F011B0EB9C3000CA34B /* MeetupAWmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C3F001B0EB9C3000CA34B /* MeetupAWmTests.swift */; };
+		C78C3F131B0EB9EE000CA34B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C3F121B0EB9EE000CA34B /* InterfaceController.swift */; };
+		C78C3F151B0EB9EE000CA34B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78C3F141B0EB9EE000CA34B /* Images.xcassets */; };
+		C78C3F191B0EB9EE000CA34B /* MeetupAWm WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C78C3F181B0EB9EE000CA34B /* MeetupAWm WatchKit App.app */; };
+		C78C3F211B0EB9EE000CA34B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78C3F1F1B0EB9EE000CA34B /* Interface.storyboard */; };
+		C78C3F231B0EB9EE000CA34B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78C3F221B0EB9EE000CA34B /* Images.xcassets */; };
+		C78C3F261B0EB9EE000CA34B /* MeetupAWm WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C78C3F0E1B0EB9EE000CA34B /* MeetupAWm WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C78C3EFB1B0EB9C3000CA34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78C3EDD1B0EB9C2000CA34B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78C3EE41B0EB9C3000CA34B;
+			remoteInfo = MeetupAWm;
+		};
+		C78C3F1A1B0EB9EE000CA34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78C3EDD1B0EB9C2000CA34B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78C3F171B0EB9EE000CA34B;
+			remoteInfo = "MeetupAWm WatchKit App";
+		};
+		C78C3F241B0EB9EE000CA34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78C3EDD1B0EB9C2000CA34B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78C3F0D1B0EB9EE000CA34B;
+			remoteInfo = "MeetupAWm WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C78C3F2D1B0EB9EE000CA34B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C78C3F261B0EB9EE000CA34B /* MeetupAWm WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C78C3EE51B0EB9C3000CA34B /* MeetupAWm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetupAWm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78C3EE91B0EB9C3000CA34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78C3EEA1B0EB9C3000CA34B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C78C3EEC1B0EB9C3000CA34B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C78C3EEF1B0EB9C3000CA34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C78C3EF11B0EB9C3000CA34B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C78C3EF41B0EB9C3000CA34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C78C3EFA1B0EB9C3000CA34B /* MeetupAWmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetupAWmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78C3EFF1B0EB9C3000CA34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78C3F001B0EB9C3000CA34B /* MeetupAWmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupAWmTests.swift; sourceTree = "<group>"; };
+		C78C3F0E1B0EB9EE000CA34B /* MeetupAWm WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MeetupAWm WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78C3F111B0EB9EE000CA34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78C3F121B0EB9EE000CA34B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C78C3F141B0EB9EE000CA34B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C78C3F181B0EB9EE000CA34B /* MeetupAWm WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MeetupAWm WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78C3F1E1B0EB9EE000CA34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78C3F201B0EB9EE000CA34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C78C3F221B0EB9EE000CA34B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78C3EE21B0EB9C3000CA34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78C3EF71B0EB9C3000CA34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78C3F0B1B0EB9EE000CA34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78C3EDC1B0EB9C2000CA34B = {
+			isa = PBXGroup;
+			children = (
+				C78C3EE71B0EB9C3000CA34B /* MeetupAWm */,
+				C78C3EFD1B0EB9C3000CA34B /* MeetupAWmTests */,
+				C78C3F0F1B0EB9EE000CA34B /* MeetupAWm WatchKit Extension */,
+				C78C3F1C1B0EB9EE000CA34B /* MeetupAWm WatchKit App */,
+				C78C3EE61B0EB9C3000CA34B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78C3EE61B0EB9C3000CA34B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78C3EE51B0EB9C3000CA34B /* MeetupAWm.app */,
+				C78C3EFA1B0EB9C3000CA34B /* MeetupAWmTests.xctest */,
+				C78C3F0E1B0EB9EE000CA34B /* MeetupAWm WatchKit Extension.appex */,
+				C78C3F181B0EB9EE000CA34B /* MeetupAWm WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78C3EE71B0EB9C3000CA34B /* MeetupAWm */ = {
+			isa = PBXGroup;
+			children = (
+				C78C3EEA1B0EB9C3000CA34B /* AppDelegate.swift */,
+				C78C3EEC1B0EB9C3000CA34B /* ViewController.swift */,
+				C78C3EEE1B0EB9C3000CA34B /* Main.storyboard */,
+				C78C3EF11B0EB9C3000CA34B /* Images.xcassets */,
+				C78C3EF31B0EB9C3000CA34B /* LaunchScreen.xib */,
+				C78C3EE81B0EB9C3000CA34B /* Supporting Files */,
+			);
+			path = MeetupAWm;
+			sourceTree = "<group>";
+		};
+		C78C3EE81B0EB9C3000CA34B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78C3EE91B0EB9C3000CA34B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C78C3EFD1B0EB9C3000CA34B /* MeetupAWmTests */ = {
+			isa = PBXGroup;
+			children = (
+				C78C3F001B0EB9C3000CA34B /* MeetupAWmTests.swift */,
+				C78C3EFE1B0EB9C3000CA34B /* Supporting Files */,
+			);
+			path = MeetupAWmTests;
+			sourceTree = "<group>";
+		};
+		C78C3EFE1B0EB9C3000CA34B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78C3EFF1B0EB9C3000CA34B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C78C3F0F1B0EB9EE000CA34B /* MeetupAWm WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C78C3F121B0EB9EE000CA34B /* InterfaceController.swift */,
+				C78C3F141B0EB9EE000CA34B /* Images.xcassets */,
+				C78C3F101B0EB9EE000CA34B /* Supporting Files */,
+			);
+			path = "MeetupAWm WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C78C3F101B0EB9EE000CA34B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78C3F111B0EB9EE000CA34B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C78C3F1C1B0EB9EE000CA34B /* MeetupAWm WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C78C3F1F1B0EB9EE000CA34B /* Interface.storyboard */,
+				C78C3F221B0EB9EE000CA34B /* Images.xcassets */,
+				C78C3F1D1B0EB9EE000CA34B /* Supporting Files */,
+			);
+			path = "MeetupAWm WatchKit App";
+			sourceTree = "<group>";
+		};
+		C78C3F1D1B0EB9EE000CA34B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78C3F1E1B0EB9EE000CA34B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78C3EE41B0EB9C3000CA34B /* MeetupAWm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78C3F041B0EB9C3000CA34B /* Build configuration list for PBXNativeTarget "MeetupAWm" */;
+			buildPhases = (
+				C78C3EE11B0EB9C3000CA34B /* Sources */,
+				C78C3EE21B0EB9C3000CA34B /* Frameworks */,
+				C78C3EE31B0EB9C3000CA34B /* Resources */,
+				C78C3F2D1B0EB9EE000CA34B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78C3F251B0EB9EE000CA34B /* PBXTargetDependency */,
+			);
+			name = MeetupAWm;
+			productName = MeetupAWm;
+			productReference = C78C3EE51B0EB9C3000CA34B /* MeetupAWm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C78C3EF91B0EB9C3000CA34B /* MeetupAWmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78C3F071B0EB9C3000CA34B /* Build configuration list for PBXNativeTarget "MeetupAWmTests" */;
+			buildPhases = (
+				C78C3EF61B0EB9C3000CA34B /* Sources */,
+				C78C3EF71B0EB9C3000CA34B /* Frameworks */,
+				C78C3EF81B0EB9C3000CA34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78C3EFC1B0EB9C3000CA34B /* PBXTargetDependency */,
+			);
+			name = MeetupAWmTests;
+			productName = MeetupAWmTests;
+			productReference = C78C3EFA1B0EB9C3000CA34B /* MeetupAWmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C78C3F0D1B0EB9EE000CA34B /* MeetupAWm WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78C3F2A1B0EB9EE000CA34B /* Build configuration list for PBXNativeTarget "MeetupAWm WatchKit Extension" */;
+			buildPhases = (
+				C78C3F0A1B0EB9EE000CA34B /* Sources */,
+				C78C3F0B1B0EB9EE000CA34B /* Frameworks */,
+				C78C3F0C1B0EB9EE000CA34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78C3F1B1B0EB9EE000CA34B /* PBXTargetDependency */,
+			);
+			name = "MeetupAWm WatchKit Extension";
+			productName = "MeetupAWm WatchKit Extension";
+			productReference = C78C3F0E1B0EB9EE000CA34B /* MeetupAWm WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C78C3F171B0EB9EE000CA34B /* MeetupAWm WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78C3F271B0EB9EE000CA34B /* Build configuration list for PBXNativeTarget "MeetupAWm WatchKit App" */;
+			buildPhases = (
+				C78C3F161B0EB9EE000CA34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MeetupAWm WatchKit App";
+			productName = "MeetupAWm WatchKit App";
+			productReference = C78C3F181B0EB9EE000CA34B /* MeetupAWm WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78C3EDD1B0EB9C2000CA34B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Oscar Robayo";
+				TargetAttributes = {
+					C78C3EE41B0EB9C3000CA34B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C78C3EF91B0EB9C3000CA34B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C78C3EE41B0EB9C3000CA34B;
+					};
+					C78C3F0D1B0EB9EE000CA34B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C78C3F171B0EB9EE000CA34B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C78C3EE01B0EB9C2000CA34B /* Build configuration list for PBXProject "MeetupAWm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C78C3EDC1B0EB9C2000CA34B;
+			productRefGroup = C78C3EE61B0EB9C3000CA34B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78C3EE41B0EB9C3000CA34B /* MeetupAWm */,
+				C78C3EF91B0EB9C3000CA34B /* MeetupAWmTests */,
+				C78C3F0D1B0EB9EE000CA34B /* MeetupAWm WatchKit Extension */,
+				C78C3F171B0EB9EE000CA34B /* MeetupAWm WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78C3EE31B0EB9C3000CA34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78C3EF01B0EB9C3000CA34B /* Main.storyboard in Resources */,
+				C78C3EF51B0EB9C3000CA34B /* LaunchScreen.xib in Resources */,
+				C78C3EF21B0EB9C3000CA34B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78C3EF81B0EB9C3000CA34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78C3F0C1B0EB9EE000CA34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78C3F191B0EB9EE000CA34B /* MeetupAWm WatchKit App.app in Resources */,
+				C78C3F151B0EB9EE000CA34B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78C3F161B0EB9EE000CA34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78C3F211B0EB9EE000CA34B /* Interface.storyboard in Resources */,
+				C78C3F231B0EB9EE000CA34B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78C3EE11B0EB9C3000CA34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78C3EED1B0EB9C3000CA34B /* ViewController.swift in Sources */,
+				C78C3EEB1B0EB9C3000CA34B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78C3EF61B0EB9C3000CA34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78C3F011B0EB9C3000CA34B /* MeetupAWmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78C3F0A1B0EB9EE000CA34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78C3F131B0EB9EE000CA34B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C78C3EFC1B0EB9C3000CA34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78C3EE41B0EB9C3000CA34B /* MeetupAWm */;
+			targetProxy = C78C3EFB1B0EB9C3000CA34B /* PBXContainerItemProxy */;
+		};
+		C78C3F1B1B0EB9EE000CA34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78C3F171B0EB9EE000CA34B /* MeetupAWm WatchKit App */;
+			targetProxy = C78C3F1A1B0EB9EE000CA34B /* PBXContainerItemProxy */;
+		};
+		C78C3F251B0EB9EE000CA34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78C3F0D1B0EB9EE000CA34B /* MeetupAWm WatchKit Extension */;
+			targetProxy = C78C3F241B0EB9EE000CA34B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C78C3EEE1B0EB9C3000CA34B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78C3EEF1B0EB9C3000CA34B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C78C3EF31B0EB9C3000CA34B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78C3EF41B0EB9C3000CA34B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C78C3F1F1B0EB9EE000CA34B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78C3F201B0EB9EE000CA34B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C78C3F021B0EB9C3000CA34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C78C3F031B0EB9C3000CA34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78C3F051B0EB9C3000CA34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetupAWm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C78C3F061B0EB9C3000CA34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetupAWm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C78C3F081B0EB9C3000CA34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeetupAWmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetupAWm.app/MeetupAWm";
+			};
+			name = Debug;
+		};
+		C78C3F091B0EB9C3000CA34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeetupAWmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetupAWm.app/MeetupAWm";
+			};
+			name = Release;
+		};
+		C78C3F281B0EB9EE000CA34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = MeetupAWm_WatchKit_Extension;
+				INFOPLIST_FILE = "MeetupAWm WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C78C3F291B0EB9EE000CA34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = MeetupAWm_WatchKit_Extension;
+				INFOPLIST_FILE = "MeetupAWm WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C78C3F2B1B0EB9EE000CA34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MeetupAWm WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C78C3F2C1B0EB9EE000CA34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MeetupAWm WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78C3EE01B0EB9C2000CA34B /* Build configuration list for PBXProject "MeetupAWm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78C3F021B0EB9C3000CA34B /* Debug */,
+				C78C3F031B0EB9C3000CA34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78C3F041B0EB9C3000CA34B /* Build configuration list for PBXNativeTarget "MeetupAWm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78C3F051B0EB9C3000CA34B /* Debug */,
+				C78C3F061B0EB9C3000CA34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C78C3F071B0EB9C3000CA34B /* Build configuration list for PBXNativeTarget "MeetupAWmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78C3F081B0EB9C3000CA34B /* Debug */,
+				C78C3F091B0EB9C3000CA34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C78C3F271B0EB9EE000CA34B /* Build configuration list for PBXNativeTarget "MeetupAWm WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78C3F281B0EB9EE000CA34B /* Debug */,
+				C78C3F291B0EB9EE000CA34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C78C3F2A1B0EB9EE000CA34B /* Build configuration list for PBXNativeTarget "MeetupAWm WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78C3F2B1B0EB9EE000CA34B /* Debug */,
+				C78C3F2C1B0EB9EE000CA34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78C3EDD1B0EB9C2000CA34B /* Project object */;
+}
